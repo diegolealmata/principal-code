@@ -1,0 +1,420 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0px;
+}
+
+/* *************************************************************WRAPPER-CONTAINER *******************************************************************/
+.wrapper {
+  margin: auto;
+  width: 95%;
+}
+
+/****************************************************************************** MENU *****************************************************************************/
+
+ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+  border-bottom: solid 1px white;
+}
+
+.icons-one {
+  position: absolute;
+  right: 60px;
+  top: 8px;
+}
+
+i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  position: relative;
+  bottom: 5px;
+  right: 105px;
+}
+
+a:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+/**************************************************************************************** SECTION-ONE ********************************************************************/
+
+.column-flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.titulo-one {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.titulo-one:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+.contenedor-one {
+  border: solid 1px #1f1f1f;
+  border-radius: 3px;
+}
+
+.contenedor-two {
+  border: solid 1px #1f1f1f;
+  border-radius: 3px;
+}
+
+.contenedor-three {
+  border: solid 1px #1f1f1f;
+  border-radius: 3px;
+}
+
+.contenedor-four {
+  border: solid 1px #1f1f1f;
+  border-radius: 3px;
+}
+
+h3 {
+  color: white;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+h3:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+p {
+  color: white;
+  margin-left: 2px;
+}
+
+p::selection {
+  background-color: red;
+}
+
+/***************************************************************************************** SECTION-TWO ******************************************************************/
+
+.section-two {
+  margin-top: 15px;
+}
+
+.title {
+  color: white;
+  position: relative;
+  bottom: 330px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.title:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+.prf-two {
+  position: relative;
+  bottom: 340px;
+  margin-left: 20px;
+}
+
+.container-more {
+  border: solid 1px #7e7d7d;
+  background-color: #1d1d1d;
+  width: 140px;
+  height: 40px;
+  border-radius: 1px;
+  margin: auto;
+  position: relative;
+  bottom: 190px;
+  cursor: pointer;
+}
+
+.container-more:hover {
+  background-color: #3a3939;
+  transition: 0.5s;
+  border: solid 1px #3a3939;
+}
+
+.more-details {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+/***************************************************************************************** SECTION-THREE ********************************************************************/
+
+.container-flexible {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  bottom: 150px;
+}
+
+.titulo-prisioners {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  bottom: 150px;
+}
+
+.titulo-prisioners:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+.three {
+  border: solid 1px #1f1f1f;
+  border-radius: 3px;
+}
+
+h3 {
+  margin-left: 2px;
+}
+
+p {
+  margin-left: 2px;
+}
+
+/********************************************************************************************* SECTION-TOUR *******************************************************************/
+
+.lonelies {
+  color: white;
+  position: relative;
+  bottom: 450px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.lonelies:hover {
+  color: #444443;
+  transition: 0.5s;
+}
+
+.imaget-followers {
+  position: relative;
+  bottom: 115px;
+}
+
+.parrafo-two {
+  position: relative;
+  bottom: 460px;
+  left: 15px;
+}
+
+.two-more {
+  border: solid 1px #7e7d7d;
+  background-color: #1d1d1d;
+  width: 140px;
+  height: 40px;
+  border-radius: 1px;
+  margin: auto;
+  position: relative;
+  bottom: 310px;
+  cursor: pointer;
+}
+
+.two-more:hover {
+  background-color: #3a3939;
+  transition: 0.5s;
+  border: solid 1px #3a3939;
+}
+
+.more-two {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+/**************************************************************************************** SECTION-GALLERY ******************************************************************/
+
+.section-gallery {
+  width: 100%;
+  height: 480px;
+  position: relative;
+  bottom: 150px;
+}
+
+.gallery {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  bottom: 70px;
+}
+
+.gallery:hover {
+  color: #1d1d1d;
+  transition: 0.5s;
+}
+
+.ower-img {
+  position: relative;
+  bottom: 50px;
+}
+
+.party-img {
+  border: solid 1px white;
+  position: relative;
+  bottom: 13px;
+  left: 35px;
+  margin: 1px;
+}
+
+/******************************************************************************************* FOOTER ******************************************************************************************************************/
+
+.footer-container {
+  border: solid 1px #555555;
+  width: 100%;
+  height: 300px;
+  background-color: #555555;
+}
+
+.information {
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: -20px;
+}
+
+.information:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.home-solid {
+  color: black;
+  cursor: pointer;
+}
+
+.prf-home {
+  position: relative;
+  bottom: -30px;
+  left: -60px;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -170px;
+  gap: 20px;
+}
+
+.diego {
+  color: black;
+  width: 800px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .column-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-flexible {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .happy {
+    width: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .ower-img {
+    position: relative;
+    right: 20px;
+  }
+
+  .more-two {
+    position: relative;
+    bottom: 18px;
+  }
+  .two-more {
+    position: relative;
+    bottom: 400px;
+    width: 160px;
+  }
+
+  .container-more {
+    position: relative;
+    bottom: 250px;
+  }
+
+  .onder {
+    width: 100%;
+  }
+  .section-gallery {
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+  }
+  .gallery {
+    position: relative;
+    right: 30px;
+  }
+  .icons {
+    margin-left: 40px;
+    position: relative;
+    top: 178px;
+  }
+  .information {
+    position: relative;
+    left: 15px;
+  }
+  .diego {
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+  }
+  .footer-container {
+    position: relative;
+    bottom: -800px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    border: none;
+  }
+
+  a {
+    display: flex;
+    margin-block-start: 5px;
+  }
+}
